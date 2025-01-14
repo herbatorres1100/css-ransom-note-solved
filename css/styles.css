@@ -56,7 +56,8 @@ body {
 
 /* Sample CSS for the WHY word */
 
-.whyWLetter, .frontendRLetter, .takeTLetter {
+.whyWLetter, .frontendRLetter, .takeTLetter, .theyTLetter, .improveELetter, .rootRLetter  {
+  background-color: red;
   font-size: 72px;
   font-weight: 400;
   color: aqua;
@@ -65,7 +66,8 @@ body {
   font-family: 'Piazolla', sans-serif;
 }
 
-.whyHLetter, .frontendTLetter, .takeALetter {
+.whyHLetter, .frontendTLetter, .takeALetter, .theyHLetter, .improveVLetter, .rootOLetter   {
+  background-color: yellow;
   font-size: 63px;
   font-weight: bold;
   color: darkgoldenrod;
@@ -74,27 +76,29 @@ body {
   font-family: 'Ceviche One', sans-serif;
 }
 
-.whyYLetter, .frontendELetter, .takeKLetter{
+.whyYLetter, .frontendELetter, .takeKLetter, .becauseETwoLetter, .theyELetter, .rootOTwoLetter  {
+  background-color: #949541;
   font-size: 60px;
   font-weight: 700;
-  color: coral;
+  color: rgb(212, 229, 231);
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Raleway Dots', sans-serif;
 }
 
 /* DID word */
-
-.didDLetter, .frontendFLetter, .takeELetter{
-  font-size: 43px;
+.didDLetter, .frontendFLetter, .takeELetter, .becauseSLetter, .theyYLetter, .rootTLetter  {
+  background-color: whitesmoke;
+  font-size: 63px;
   font-weight: lighter;
-  color: aqua;
+  color: black;
   text-decoration: underline dotted;
   text-transform: lowercase;
   font-family: "Ruge Boogie", sans-serif;
 }
 
-.didILetter, .frontendNLetter{
+.didILetter, .frontendNLetter, .becauseULetter, .improveILetter{
+  background-color: rgb(54, 3, 3);
   font-size: 50px;
   font-weight: 400;
   font-style: normal;
@@ -104,7 +108,8 @@ body {
   font-family: "Amatic SC", serif;
 }
 
-.didDTwoLetter,.frontendDLetter {
+.didDTwoLetter,.frontendDLetter, .becauseALetter, .improveMLetter {
+  background-color: rgb(3, 54, 12);
   font-size: 67px;
   font-weight: 700;
   color: greenyellow;
@@ -115,7 +120,8 @@ body {
 
 /* THE word */
 
-.theTLetter, .frontendNTwoLetter{
+.theTLetter, .frontendNTwoLetter, .becauseCLetter,.improvePLetter {
+  background-color: rgb(240, 231, 128);
   font-size: 23px;
   font-weight: 700;
   color: brown;
@@ -124,7 +130,8 @@ body {
   font-family: "Press Start 2P", serif;
 }
 
-.theHLetter,.frontendOLetter{
+.theHLetter,.frontendOLetter, .becauseELetter, .improveRLetter{
+  background-color: orange;
   font-size: 23px;
   font-weight: normal;
   color: antiquewhite;
@@ -133,7 +140,7 @@ body {
   font-family: "Rock Salt", serif;
 }
 
-.theELetter, .frontendFLetter {
+.theELetter, .frontendFLetter, .becauseBLetter, .improveOLetter {
   font-size: 44px;
   font-weight: normal;
   color: purple;
@@ -142,43 +149,9 @@ body {
   font-family: "Dancing Script", serif;
 }
 
-/* FRONT-END word */
-
-.frontendFLetter {
-
-}
-
-.frontendRLetter {
-  
-}
-
-.frontendOLetter {
-  
-}
-
-.frontendNLetter {
-  
-}
-
-.frontendTLetter {
-  
-}
-
-.frontendELetter {
-
-}
-
-.frontendNTwoLetter {
-  
-}
-
-.frontendDLetter {
-  
-}
-
-/* DEVELOPER word */
 
 .developerDLetter, .upULetter, .gardeningGTwoLetter  {
+  background-color: rgb(54, 3, 3);
   font-size: 23px;
   font-weight: bold;
   color: hotpink;
@@ -186,7 +159,8 @@ body {
   text-transform: uppercase;
   font-family: "Dancing Script", serif;
 }
-.developerELetter, .upPLetter, .gardeningNTwoLetter  {
+.developerELetter, .upPLetter, .gardeningNTwoLetter, .toOLetter  {
+  background-color: rgb(7, 54, 3);
   font-size: 23px;
   font-weight: bold;
   color: orange;
@@ -194,15 +168,16 @@ body {
   text-transform: uppercase;
   font-family: "Press Start 2P", serif;
 }
-.developerVLetter, .gardeningILetter  {
-  font-size: 23px;
+.developerVLetter, .gardeningILetter , .toTLetter , .skillsSLetter {
+  font-size: 53px;
   font-weight: bold;
   color: palegreen;
   text-decoration: line-through;
-  text-transform: uppercase;
-  font-family: "Ruge Boogie", sans-serif;
+  text-transform: lowercase;
+  font-family: "Rock Salt", serif;
 }
-.developerETwoLetter, .gardeningNLetter  {
+.developerETwoLetter, .gardeningNLetter, .wantedDLetter , .skillsKLetter  {
+  background-color: yellow;
   font-size: 66px;
   font-weight: bold;
   color: #ab3e10;
@@ -210,16 +185,18 @@ body {
   text-transform: uppercase;
   font-family: 'Ceviche One', sans-serif;
 }
-.developerLLetter, .gardeningELetter {
+.developerLLetter, .gardeningELetter , .wantedELetter, .theirRLetter, .skillsILetter  {
+  background-color: pink;
   font-size: 66px;
   font-weight: bolder;
-  color: rgba(14, 154, 185, 0.2);
+  color: rgba(0, 0, 0, 0.2);
   text-decoration: underline;
   text-transform: lowercase;
   font-family: 'Piazolla', sans-serif;
 
 }
-.developerOLetter, .gardeningDLetter  {
+.developerOLetter, .gardeningDLetter, .wantedTLetter, .theirILetter, .skillsLLetter     {
+  background-color: rgb(221, 192, 8);
   font-size: 45px;
   font-weight: bolder;
   color: #949541;
@@ -227,7 +204,8 @@ body {
   text-transform: uppercase;
   font-family: "Press Start 2P", serif;
 }
-.developerPLetter, .gardeningRLetter  {
+.developerPLetter, .gardeningRLetter, .wantedNLetter, .theirELetter, .skillsLTwoLetter    {
+  background-color: rgb(14, 29, 139);
   font-size: 55px;
   font-weight: bolder;
   color: rgba(249, 0, 0, 0.996);
@@ -235,16 +213,17 @@ body {
   text-transform: uppercase;
   font-family: "Ruge Boogie", serif;
 }
-.developerEThreeLetter, .gardeningALetter  {
+.developerEThreeLetter, .gardeningALetter, .wantedALetter, .theirHLetter, .skillsSTwoLetter    {
+  background-color: whitesmoke;
   font-size: 55px;
   font-weight: bold;
-  color: rgb(229, 224, 237);
+  color: rgb(4, 0, 9);
   text-decoration: none;
   text-transform: lowercase;
   font-family: "Press Start 2P", serif;
 }
 
-.developerRLetter, .gardeningGLetter  {
+.developerRLetter, .gardeningGLetter, .wantedWLetter, .theirTLetter    {
   font-size: 85px;
   font-weight: bolder;
   color: rgba(249, 0, 0, 0.996);
@@ -253,212 +232,30 @@ body {
   font-family: "Dancing Script", serif;
 }
 
-/* TAKE word */
-
-.takeTLetter {
-  
-}
-.takeALetter {
- 
-}
-.takeKLetter {
-  
-}
-.takeELetter {
- 
-}
-
-/* UP word */
-
-.upULetter {
-  
-}
-.upPLetter {
-  
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-  
-}
-.gardeningALetter, {
-  
-}
-.gardeningRLetter {
-  
-}
-.gardeningDLetter {
-  
-}
-.gardeningELetter {
-  
-}
-.gardeningNLetter {
-  
-}
-.gardeningILetter {
-  
-}
-.gardeningNTwoLetter {
-  
-}
-.gardeningGTwoLetter {
-  
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-
-}
-.becauseULetter {
-  
-}
-.becauseSLetter {
-  
-}
-.becauseETwoLetter {
-  
-}
-
-/* THEY word */
-
-.theyTLetter {
-  
-}
-.theyHLetter {
-  
-}
-.theyELetter {
- 
-}
-.theyYLetter {
-  
-}
-
-/* WANTED word */
-
-.wantedWLetter {
- 
-}
-.wantedALetter {
-  
-}
-.wantedNLetter {
-  
-}
-.wantedTLetter {
-  
-}
-.wantedELetter {
-  
-}
-.wantedDLetter {
-  
-}
-
-/* TO word */
-
-.toTLetter {
-  
-}
-.toOLetter {
- 
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-  
-}
-.improveMLetter {
-  
-}
-.improvePLetter {
-  
-}
-.improveRLetter {
-  
-}
-.improveOLetter {
-  
-}
-.improveVLetter {
-  
-}
-.improveELetter {
-  
-}
-
-/* THEIR word */
-
-.theirTLetter {
-  
-}
-.theirHLetter {
-  
-}
-.theirELetter {
-  
-}
-.theirILetter {
-  
-}
-.theirRLetter {
-  
-}
-
-/* ROOT word */
-
-.rootRLetter {
-  
-}
-.rootOLetter {
-  
-}
-.rootOTwoLetter {
-  
-}
-.rootTLetter {
-  
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-  
-}
-.skillsKLetter {
-  
-}
-.skillsILetter {
-  
-}
-.skillsLLetter {
- 
-}
-.skillsLTwoLetter {
-  
-}
-.skillsSTwoLetter {
- 
-}
-
-/* SYMBOLS */
-
 .hyphen {
-  
+  background-color: black;
+  font-size: 85px;
+  font-weight: bolder;
+  color: blueviolet;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Ruge Boogie", sans-serif;
 }
 .exclamation-mark {
+  font-size: 35px;
+  font-weight: bolder;
+  color: greenyellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rock Salt", serif;
   
 }
 .question-mark {
+  font-size: 85px;
+  font-weight: bolder;
+  color: rgba(249, 0, 0, 0.996);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Dancing Script", serif;
   
 }
