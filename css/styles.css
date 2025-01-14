@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Press+Start+2P&family=Rock+Salt&family=Ruge+Boogie&display=swap');
+
 
 * {
   padding: 0;
@@ -53,17 +56,17 @@ body {
 
 /* Sample CSS for the WHY word */
 
-.whyWLetter {
+.whyWLetter, .frontendRLetter, .takeTLetter {
   font-size: 72px;
-  font-weight: bold;
+  font-weight: 400;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Piazolla', sans-serif;
 }
 
-.whyHLetter {
-  font-size: 30px;
+.whyHLetter, .frontendTLetter, .takeALetter {
+  font-size: 63px;
   font-weight: bold;
   color: darkgoldenrod;
   text-decoration: overline;
@@ -71,9 +74,9 @@ body {
   font-family: 'Ceviche One', sans-serif;
 }
 
-.whyYLetter {
+.whyYLetter, .frontendELetter, .takeKLetter{
   font-size: 60px;
-  font-weight: normal;
+  font-weight: 700;
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
@@ -82,110 +85,226 @@ body {
 
 /* DID word */
 
-.didDLetter {
+.didDLetter, .frontendFLetter, .takeELetter{
+  font-size: 43px;
+  font-weight: lighter;
+  color: aqua;
+  text-decoration: underline dotted;
+  text-transform: lowercase;
+  font-family: "Ruge Boogie", sans-serif;
 }
 
-.didILetter {
+.didILetter, .frontendNLetter{
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  color: orangered;
+  text-decoration: line-through;
+  text-transform: none;
+  font-family: "Amatic SC", serif;
 }
 
-.didDTwoLetter {
+.didDTwoLetter,.frontendDLetter {
+  font-size: 67px;
+  font-weight: 700;
+  color: greenyellow;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Press Start 2P", serif;
 }
 
 /* THE word */
 
-.theTLetter {
+.theTLetter, .frontendNTwoLetter{
+  font-size: 23px;
+  font-weight: 700;
+  color: brown;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Press Start 2P", serif;
 }
 
-.theHLetter {
+.theHLetter,.frontendOLetter{
+  font-size: 23px;
+  font-weight: normal;
+  color: antiquewhite;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Rock Salt", serif;
 }
 
-.theELetter {
+.theELetter, .frontendFLetter {
+  font-size: 44px;
+  font-weight: normal;
+  color: purple;
+  text-decoration: underline overline;
+  text-transform: uppercase;
+  font-family: "Dancing Script", serif;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+
 }
 
 .frontendRLetter {
+  
 }
 
 .frontendOLetter {
+  
 }
 
 .frontendNLetter {
+  
 }
 
 .frontendTLetter {
+  
 }
 
 .frontendELetter {
+
 }
 
 .frontendNTwoLetter {
+  
 }
 
 .frontendDLetter {
+  
 }
 
 /* DEVELOPER word */
 
-.developerDLetter {
+.developerDLetter, .upULetter, .gardeningGTwoLetter  {
+  font-size: 23px;
+  font-weight: bold;
+  color: hotpink;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Dancing Script", serif;
 }
-.developerELetter {
+.developerELetter, .upPLetter, .gardeningNTwoLetter  {
+  font-size: 23px;
+  font-weight: bold;
+  color: orange;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Press Start 2P", serif;
 }
-.developerVLetter {
+.developerVLetter, .gardeningILetter  {
+  font-size: 23px;
+  font-weight: bold;
+  color: palegreen;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: "Ruge Boogie", sans-serif;
 }
-.developerETwoLetter {
+.developerETwoLetter, .gardeningNLetter  {
+  font-size: 66px;
+  font-weight: bold;
+  color: #ab3e10;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Ceviche One', sans-serif;
 }
-.developerLLetter {
+.developerLLetter, .gardeningELetter {
+  font-size: 66px;
+  font-weight: bolder;
+  color: rgba(14, 154, 185, 0.2);
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Piazolla', sans-serif;
+
 }
-.developerOLetter {
+.developerOLetter, .gardeningDLetter  {
+  font-size: 45px;
+  font-weight: bolder;
+  color: #949541;
+  text-decoration: overline underline;
+  text-transform: uppercase;
+  font-family: "Press Start 2P", serif;
 }
-.developerPLetter {
+.developerPLetter, .gardeningRLetter  {
+  font-size: 55px;
+  font-weight: bolder;
+  color: rgba(249, 0, 0, 0.996);
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Ruge Boogie", serif;
 }
-.developerEThreeLetter {
+.developerEThreeLetter, .gardeningALetter  {
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(229, 224, 237);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Press Start 2P", serif;
 }
-.developerRLetter {
+
+.developerRLetter, .gardeningGLetter  {
+  font-size: 85px;
+  font-weight: bolder;
+  color: rgba(249, 0, 0, 0.996);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: "Dancing Script", serif;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  
 }
 .takeALetter {
+ 
 }
 .takeKLetter {
+  
 }
 .takeELetter {
+ 
 }
 
 /* UP word */
 
 .upULetter {
+  
 }
 .upPLetter {
+  
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  
 }
-.gardeningALetter {
+.gardeningALetter, {
+  
 }
 .gardeningRLetter {
+  
 }
 .gardeningDLetter {
+  
 }
 .gardeningELetter {
+  
 }
 .gardeningNLetter {
+  
 }
 .gardeningILetter {
+  
 }
 .gardeningNTwoLetter {
+  
 }
 .gardeningGTwoLetter {
+  
 }
 
 /* BECAUSE word */
@@ -197,108 +316,149 @@ body {
 .becauseCLetter {
 }
 .becauseALetter {
+
 }
 .becauseULetter {
+  
 }
 .becauseSLetter {
+  
 }
 .becauseETwoLetter {
+  
 }
 
 /* THEY word */
 
 .theyTLetter {
+  
 }
 .theyHLetter {
+  
 }
 .theyELetter {
+ 
 }
 .theyYLetter {
+  
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+ 
 }
 .wantedALetter {
+  
 }
 .wantedNLetter {
+  
 }
 .wantedTLetter {
+  
 }
 .wantedELetter {
+  
 }
 .wantedDLetter {
+  
 }
 
 /* TO word */
 
 .toTLetter {
+  
 }
 .toOLetter {
+ 
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  
 }
 .improveMLetter {
+  
 }
 .improvePLetter {
+  
 }
 .improveRLetter {
+  
 }
 .improveOLetter {
+  
 }
 .improveVLetter {
+  
 }
 .improveELetter {
+  
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  
 }
 .theirHLetter {
+  
 }
 .theirELetter {
+  
 }
 .theirILetter {
+  
 }
 .theirRLetter {
+  
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  
 }
 .rootOLetter {
+  
 }
 .rootOTwoLetter {
+  
 }
 .rootTLetter {
+  
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  
 }
 .skillsKLetter {
+  
 }
 .skillsILetter {
+  
 }
 .skillsLLetter {
+ 
 }
 .skillsLTwoLetter {
+  
 }
 .skillsSTwoLetter {
+ 
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  
 }
 .exclamation-mark {
+  
 }
 .question-mark {
+  
 }
